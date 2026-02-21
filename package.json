@@ -1,0 +1,20 @@
+{
+	"name": "lexi",
+	"version": "1.0.0",
+	"description": "Lexi - A CLI Tool for managing i18n translation keys",
+	"license": "ISC",
+	"author": "Jose Luis Barcelo - Joshito1 (GitHub)",
+	"type": "module",
+	"main": "index.js",
+	"bin": {
+		"lexi": "./cli/bin/lexi.js"
+	},
+	"directories": {
+		"doc": "docs",
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test_log": "node tests/logger.test.js"
+	}
+}
